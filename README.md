@@ -209,13 +209,13 @@ pipeline {
 
     environment {
         SCANNER_HOME          = tool 'sonar-scanner'
-        DOCKER_IMAGE          = 'myntraa'
-        DOCKER_REGISTRY       = 'abhipraydh96'
+        DOCKER_IMAGE          = 'myimagemyntra'
+        DOCKER_REGISTRY       = 'sayalipawar1295'
         DOCKER_CREDENTIALS_ID = 'docker-cred'
         MANIFEST_FILE         = 'k8s/deployment.yml'
         GIT_REPO_NAME         = 'Project-Myntra-Clone'
-        GIT_USER_NAME         = 'abhipraydhoble'
-        GIT_EMAIL             = 'abhipraydh96@gmail.com'
+        GIT_USER_NAME         = 'sayalipawar1295'
+        GIT_EMAIL             = 'sayalipawar1295@gmail.com'
     }
 
     stages {
@@ -294,9 +294,6 @@ pipeline {
         }
     }
 }
-
-
-```
 
 
 ### Create EKS Cluster
